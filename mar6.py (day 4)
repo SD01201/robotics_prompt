@@ -1,0 +1,12 @@
+myName = input("What is your name?: ")
+print ( "Your Name is:" + myName)
+myAge = input("How old are you?: ")
+print ("Your Age is:" + myAge)
+myFridge = input("What is in your fridge?: ")
+print ("Your Fridge has:" + myFridge)
+myFavouriteFood = input("What is your favourite food?" )
+print ("Your Favourite Food is:" + myFavouriteFood)
+myFavouriteDrink = input("What is your favourite drink? ")
+print ("Your Favourite Drink is:" + myFavouriteDrink)
+
+print(f"Hello {myName} you are {myAge} years old and you have {myFridge} in your fridge but you don't have  {myFavouriteFood} and {myFavouriteDrink} in your fridge")
